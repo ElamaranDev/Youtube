@@ -1,0 +1,59 @@
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 41px;
+    left: 0;
+    width:50px;
+    height: 100%;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ededed;
+}
+.home-icon{
+    height: 25px;
+    margin-bottom: 2px;
+}
+.shorts-icon{
+    height: 20px;
+    margin-bottom: 4px;
+}
+.sub-icon{
+    height: 30px;
+}
+.library-icon{
+    height: 30px;
+}
+
+.home, .shorts, .subscriptions, .library{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    height: 40px;
+    width: 30px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 7px;
+}
+.home:hover{
+    border: none;
+    background-color: #ededed;
+}
+.shorts:hover{
+    border: none;
+    background-color: #ededed;
+}
+.subscriptions:hover{
+    border: none;
+    background-color: #ededed;
+}
+.library:hover{
+    border: none;
+    background-color: #ededed;
+}
+.home:active, .shorts:active, .subscriptions:active, .library:active{
+    background-color: #cbcbcb;
+}

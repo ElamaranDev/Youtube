@@ -1,0 +1,147 @@
+body{
+    padding-top: 60px;
+    padding-left: 45px;
+}
+.tool-container{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ededed;
+    background-color: white;
+}
+.menu{
+    width: 15px;
+    height: 12px;
+}
+.menu-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 8px;
+    width: 8px;
+    border-radius: 18px;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.menu-button:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+.menu-button:active{
+    background-color: #cecece;
+}
+.logo{
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    margin-left: 8px;
+}
+.search-bar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #ededed;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.input-field{
+    height: 20px;
+    width: 100%;
+    padding: 4px 4px 4px 10px;
+    border-style: none;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 12px;
+    outline: none;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 500px;
+}
+.cancle-btn{
+    height: 8px;
+    width: 8px;
+    padding: 8px;
+}
+.cancle-btn:hover{
+    background-color: rgb(229, 229, 229);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.search-btn{
+    height: 12px;
+    width: 11px;
+    cursor: pointer;
+}
+.settings-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    margin-right: 8px;
+}
+.create-icon{
+    height: 12px;
+}
+.bell-icon{
+    height: 18px;
+}
+.profile-img{
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+.create-button, .notify, .profile{
+    display: flex;
+    margin-right: 6px;
+    align-items: center;
+}
+.create-button,.notify{
+    margin-right: 18px;
+}
+.cancle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 30px;
+    margin-right: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.mic-icon{
+    height: 12px;
+}
+.mic{
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.mic:hover{
+    background-color: #ededed;
+}
+.mic:active{
+    background-color: #d1d1d1;
+}
