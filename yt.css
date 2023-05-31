@@ -4,12 +4,12 @@
 }
 
 .thumbnail{
-    position: relative;
     border-radius: 10px;
     width:265px; /*265 for optimal view in minimizing*/
-    display: block;
 }
-
+.thumbnail-div{
+    position: relative;
+}
 .title{
     display: flex;
     width: 265px;
@@ -52,6 +52,14 @@
     font-size: 14px;
 }
 .time{
+    font-size: 10px;
+    font-weight: 500;
     position: absolute;
+    right: 6px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.545);
+    color: white;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
 }
 
