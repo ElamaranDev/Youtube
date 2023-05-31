@@ -9,6 +9,7 @@
 }
 .thumbnail-div{
     position: relative;
+    cursor: pointer;
 }
 .title{
     display: flex;
