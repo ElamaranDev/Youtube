@@ -13,6 +13,14 @@
     border-right-color: #ededed;
     z-index: 100;
 }
+@media(max-width: 310px){
+    .side-bar{
+        opacity: 0;
+    }
+    body{
+        padding-left: 0px;
+    }
+}
 .home-icon{
     height: 25px;
     margin-bottom: 2px;
